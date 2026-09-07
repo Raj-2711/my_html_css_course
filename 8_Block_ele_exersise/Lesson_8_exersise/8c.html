@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .first-name-box, .last-name-box{
+            width: 100px;
+            margin-bottom: 5px;
+            color: grey;
+            font-size: 16px;
+            padding:8px 16px;
+            border-radius: 10px;
+            border: 1px solid grey;
+
+
+        } 
+
+        .email-box{
+           display: block;
+               width:238Px;
+               padding:8px 16px;
+               font-size: 16px;
+               color:grey;
+               border-radius:10px;
+               border:1px solid grey;
+
+        }
+
+        .first-name-box, .last-name-box, .email-box:focus{
+            outline: none;
+            border: 1px solid rgb(62, 99, 202);
+
+        }
+
+        .sign-up-button{
+           margin-top: 10px;
+           margin-left: 0px;
+           padding: 14px 110px;
+           border-radius: 10px;
+           text-align: center;
+           color: white;
+           background-color: rgb(62, 99, 202);
+           font-size: 14px;
+           font-weight: bold;
+           border: none;
+           transition: background-color 0.3s ease, opacity 0.3s ease;
+            cursor: pointer;
+
+        }
+        .sign-up-button:hover{
+           opacity: 0.8;
+           
+        }
+        .sign-up-button:active{
+            box-shadow: 1px 1px 5px 0px rgb(161, 160, 160);
+            outline: blue auto 1px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <input class="first-name-box" type="text" placeholder=" First Name">
+     <input class="last-name-box" type="text" placeholder=" Last Name">
+     <input class="email-box" type="text" placeholder=" Email">
+
+     <button class="sign-up-button"> Sign Up</button>
+</body>
+</html>
