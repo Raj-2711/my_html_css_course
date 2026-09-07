@@ -1,0 +1,51 @@
+h2{
+    color:green;
+    font-family:'Times New Roman', Times, serif
+}
+
+.Add-btn{
+    background-color:rgb(213, 197, 50);
+    color:black;
+    width:125px;
+    height:35px;
+    border:none;
+    cursor:pointer;
+    border-radius:20px;
+    font-weight:bold;
+
+
+}
+
+.Add-btn:hover{
+    box-shadow: 0 0 2px #666;
+}
+
+.Add-btn:active{
+    background-color:rgb(213, 186, 50);
+    
+}
+
+.Buy-btn{
+    background-color:rgb(221, 148, 22);
+    color:black;
+    width:125px;
+    height:35px;
+    border:none;
+    cursor:pointer;
+    border-radius:20px;
+    font-weight:bold;
+    margin-left:5px;
+}
+
+.Buy-btn:hover{
+   box-shadow: 0 0 2px #666;
+}
+
+.Buy-btn:active{
+    background-color:rgb(193, 120, 19);
+    
+}
+
+a:hover{
+   color:rgb(188, 127, 15);
+}
