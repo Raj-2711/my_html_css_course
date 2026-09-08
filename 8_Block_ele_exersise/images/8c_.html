@@ -1,48 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .img{
-           height: 70px;
-           width: 230px;
-            object-fit: cover;
-            margin-left: 700px;
-            margin-top: 300px;
-            display: block;
-            
+        .img {
+            width: 200px;
+            margin-top: 10px;
+            margin-bottom: 10px;
 
-            
+
+
 
         }
 
-        .search-box{
-              width: 30%;
-              margin-left: 560px;
-              padding: 10px 35px;
-              margin-top: 10px;
-              border: none;
-              color: grey;
-              font-size: 16px;
-              font-family: Arial, sans-serif;
-              font-weight: light;
-              border-radius: 20px;
-              box-shadow: 1px 1px 5px 0px grey;
-
+        .search-box {
+            border: none;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 16px;
+            padding-right: 16px;
+            font-size: 16px;
+            width: 500px;
+            border-radius: 30px;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
         }
 
-        .search-box:Focus{
+        .search-box:Focus {
             outline: none;
-           
+
         }
 
+        div {
+            text-align: center;
+        }
+
+        .google-button {
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
     </style>
 </head>
-<body>
-    <img class="img" src="image.png" alt="Description of the image">
-    <input class="search-box" type="text" placeholder="Search Google or type a URL">
 
+<body>
+    <div>
+        <img class="img" src="image.png" alt="Description of the image">
+    </div>
+    <div>
+        <input class="search-box" type="text" placeholder="Search Google or type a URL">
+    </div>
+
+    <div>
+        <button class="google-button search-button">Google Search</button>
+        <button class="google-button">I'm Feeling Lucky</button>
+    </div>
 </body>
+
 </html>
