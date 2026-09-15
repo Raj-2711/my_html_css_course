@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12f</title>
+    <style>
+        body{
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .main-div{
+            display: flex;
+            justify-content: space-between;
+            background-color: blueviolet;
+            height: 80px;
+            color: white;
+            align-items: center;
+            flex-direction: row;
+            padding: 0px  20px;
+        }
+
+            .serach-box{
+                width: 500px;
+                height: 40px;
+                border-radius: 30px;
+                border: none;
+                font-size: 15px;
+                padding: 0px 30px;
+                max-width: 600px;
+                outline: none;
+
+            }      
+            
+            .inside-div{
+                font-weight: bold;
+                font-size: 20px;
+                margin-left: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            button{
+                padding: 10px 30px;
+              
+                background-color: transparent;
+                color: white;
+                font-weight: bold;
+                border:white solid 1px;
+                cursor: pointer;
+
+            }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <div class="inside-div">Home</div>
+        <div  >
+            <input class="serach-box" type="text" placeholder="Search">
+        </div>
+        <div >
+            <button class="d-btn">Download</button>
+        </div>
+    </div>
+</body>
+</html>
