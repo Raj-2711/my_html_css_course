@@ -5,168 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cat insta</title>
-    <style>
-        p {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .main-img {
-            width: 220px;
-            height: 240px;
-            object-fit: cover;
-
-        }
-
-        .mutual-friends {
-            width: 30px;
-            height: 30px;
-            object-fit: cover;
-            border-radius: 40px;
-            vertical-align: middle;
-            margin-right: 5px;
-            margin-left: 8px;
-
-        }
-
-        .main-div {
-            display: inline-block;
-            width: 220px;
-            height: 380px;
-            border: none;
-            margin-right: 10px;
-            box-shadow: 0px 0px 13px 0px grey;
-        }
-
-        .mutual-div {
-            display: inline-block;
-            margin-left: 8px;
-            margin-bottom: 0px;
-        }
-
-        .pdiv {
-            display: inline-block;
-            vertical-align: middle;
-            color: gray;
-            font-size: 14px;
-        }
-
-        .name {
-            margin-left: 18px;
-            font-size: 18px;
-            font-weight: bold;
-            margin-top: 10px;
-            margin-bottom: 4px;
-
-        }
-
-        .btn-div {
-            margin-top: 8px;
-        }
-
-        button {
-            padding: 10px 20px;
-            color: white;
-            background-color: rgb(84, 134, 220);
-            border: none;
-            border-radius: 5px;
-            margin-left: 8px;
-            margin-top: 0px;
-            font-weight: bold;
-        }
-
-        .m-img-div {
-
-            display: inline-block;
-        }
-
-        .imp-div{
-            box-shadow: 0px 0px 10px 0px grey;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
-    <div class="imp-div">
-        <div class="main-div">
-            <div>
-                <div class="main-img">
-                    <img class="main-img" src="cat_pic/Cat_c2.webp" alt="cat">
-                </div>
-                <div class="p-div">
-                    <p class="name">Oliver</p>
-
-                </div>
-                <div class="mutual-div">
-
-                    <div class="m-img-div">
-                        <img class="mutual-friends" src="cat_pic/cat_w4.jpg" alt="mutual_friend">
-                    </div>
-                    <div class="pdiv">
-                        <p> 2 mutual friends</p>
-                    </div>
-                </div>
-
-                <div class="btn-div">
-                    <button>Add friend</button>
-                </div>
+    <div class="grid">
+        <div class="profile">
+            <img class="profile-picture" src="cat_pic/Cat_c2.webp" alt="cat">
+            <p class="name">Oliver</p>
+            <div class="mutual-friends-row">
+                <img class="mutual-friend-picture" src="cat_pic/cat_w4.jpg" alt="mutual_friend">
+                <p class="mutual-friends">2 mutual friends</p>
             </div>
+            <button class="add-friend-button">Add friend</button>
         </div>
 
-
-
-        <div class="main-div">
-            <div>
-                <div class="main-img">
-                    <img class="main-img" src="cat_pic/cat_s_3.jpg" alt="cat">
-                </div>
-                <div class="p-div">
-                    <p class="name">Mini</p>
-
-                </div>
-                <div class="mutual-div">
-
-                    <div class="m-img-div">
-                        <img class="mutual-friends" src="cat_pic/cat_w4.jpg" alt="mutual_friend">
-                    </div>
-                    <div class="pdiv">
-                        <p> 3 mutual friends</p>
-                    </div>
-                </div>
-
-                <div class="btn-div">
-                    <button>Add friend</button>
-                </div>
+        <div class="profile">
+            <img class="profile-picture" src="cat_pic/cat_s_3.jpg" alt="cat">
+            <p class="name">Mini</p>
+            <div class="mutual-friends-row">
+                <img class="mutual-friend-picture" src="cat_pic/cat_w4.jpg" alt="mutual_friend">
+                <p class="mutual-friends">3 mutual friends</p>
             </div>
+            <button class="add-friend-button">Add friend</button>
         </div>
 
-
-
-        <div class="main-div">
-            <div>
-                <div class="main-img">
-                    <img class="main-img" src="cat_pic/image.png" alt="cat">
-                </div>
-                <div class="p-div">
-                    <p class="name">Mini</p>
-
-                </div>
-                <div class="mutual-div">
-
-                    <div class="m-img-div">
-                        <img class="mutual-friends" src="cat_pic/cat_w4.jpg" alt="mutual_friend">
-                    </div>
-                    <div class="pdiv">
-                        <p> 3 mutual friends</p>
-                    </div>
-                </div>
-
-                <div class="btn-div">
-                    <button>Add friend</button>
-                </div>
+        <div class="profile">
+            <img class="profile-picture" src="cat_pic/image.png" alt="cat">
+            <p class="name">Mini</p>
+            <div class="mutual-friends-row">
+                <img class="mutual-friend-picture" src="cat_pic/cat_w4.jpg" alt="mutual_friend">
+                <p class="mutual-friends">3 mutual friends</p>
             </div>
+            <button class="add-friend-button">Add friend</button>
         </div>
     </div>
+
+
+   
 </body>
 
 </html>

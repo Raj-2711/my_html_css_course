@@ -4,59 +4,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Profile List</title>
+    <style>
+        p {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
 
-   
+        /* Outer Box Container */
+        .card-container {
+            width: 360px;
+            padding: 16px;
+            font-size: 0; /* Prevents inline-block spacing gaps */
+        }
+
+        /* Individual Row Layout */
+        .profile-row {
+            margin-bottom: 20px;
+            font-size: 0;
+        }
+
+        .profile-row:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Profile Picture */
+        .profile-pic {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        /* Profile Details (Middle Section) */
+        .profile-info {
+            display: inline-block;
+            vertical-align: middle;
+            width: 190px;
+            margin-left: 15px;
+        }
+
+        .name {
+            font-weight: bold;
+            font-size: 15px;
+            color: #000000;
+            margin-bottom: 2px;
+        }
+
+        .handle {
+            color: #8e8e8e;
+            font-size: 13px;
+            margin-bottom: 2px;
+        }
+
+        .category {
+            color: #b0b0b0;
+            font-size: 12px;
+        }
+
+        /* Follow Button Container (Right Side) */
+        .btn-wrapper {
+            display: inline-block;
+            vertical-align: middle;
+            width: 105px;
+            text-align: right;
+        }
+
+        /* Follow Button */
+        .follow-btn {
+            background-color: #3897f0;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 14px;
+            border: none;
+            padding: 8px 18px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .follow-btn:hover {
+            background-color: #2885dc;
+        }
+    </style>
 </head>
 
 <body>
 
-    <!-- First Card -->
-    <div class="Cat_div">
-        <div class="pro-pic">
-            <img src="cat_pic/cat.png" alt="catimg">
-        </div>
-        <div class="main-div">
-            <div class="p-div">
-                <p class="name">Oliver</p>
+    <div class="card-container">
+        
+        <!-- Oliver Row -->
+        <div class="profile-row">
+            <img class="profile-pic" src="cat_pic/cat.png" alt="oliver">
+            <div class="profile-info">
+                <p class="name">oliver</p>
+                <p class="handle">the cat</p>
+                <p class="category">Popular</p>
             </div>
-            <div class="dis-div">
-                <p class="dis-block">the cat</p>
-            </div>
-            <div class="p_1-div">
-                <p class="poular-p">Popular</p>
+            <div class="btn-wrapper">
+                <button class="follow-btn">Follow</button>
             </div>
         </div>
-        <div class="btn-div">
-            <button>Follow</button>
+
+        <!-- Mimi Row -->
+        <div class="profile-row">
+            <img class="profile-pic" src="cat_pic/image.png" alt="Mimi">
+            <div class="profile-info">
+                <p class="name">Mimi</p>
+                <p class="handle">Sleepy Cat</p>
+                <p class="category">Popular</p>
+            </div>
+            <div class="btn-wrapper">
+                <button class="follow-btn">Follow</button>
+            </div>
         </div>
+
+        <!-- Rex Row -->
+        <div class="profile-row">
+            <img class="profile-pic" src="cat_pic/cat_w4.jpg" alt="Rex">
+            <div class="profile-info">
+                <p class="name">Rex</p>
+                <p class="handle">Happy Bulldog</p>
+                <p class="category">Popular</p>
+            </div>
+            <div class="btn-wrapper">
+                <button class="follow-btn">Follow</button>
+            </div>
+        </div>
+
     </div>
-
-    <!-- Second Card -->
-    <div class="Cat_div">
-        <div class="pro-pic">
-            <img src="cat_pic/image.png" alt="catimg">
-        </div>
-        <div class="main-div">
-            <div class="p-div">
-                <p class="name">Mini</p>
-            </div>
-            <div class="dis-div">
-                <p class="dis-block">the Sleepy cat</p>
-            </div>
-            <div class="p_1-div">
-                <p class="poular-p">Popular</p>
-            </div>
-        </div>
-        <div class="btn-div">
-            <button>Follow</button>
-        </div>
-    </div>
-
-    
-
-   
 
 </body>
 
