@@ -1,8 +1,3 @@
-p{
-    font-family: Roboto, Arial;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 
 
 .First_thumb{
@@ -15,9 +10,7 @@ p{
     grid-template-columns: 50px 1fr;
 }
 
-.Search-box{ 
-    display: block;
-}
+
 
 
 
