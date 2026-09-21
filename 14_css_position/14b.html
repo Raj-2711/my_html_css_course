@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 3000px;
+            margin: 0;
+        }
+
+        .bottom-div {
+            position: fixed;
+            background-color: green;
+            color: white;
+
+            bottom: 0px;
+            right: 0px;
+            top: 0;
+            width: 100px;
+        }
+
+        .second-con {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 500px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .first-hed {
+            margin-top: 0;
+            margin-bottom: 12px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .sec-hed {
+            margin-bottom: 16px;
+            font-size: 18px;
+        }
+
+        button {
+            font-size: 14px;
+            padding: 4px 8px;
+            border: 1px solid #767676;
+            border-radius: 3px;
+            background-color: #efefef;
+            cursor: pointer;
+        }
+
+        .overlay {
+            /* Cover the entire page */
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+
+            /* Flexbox centering */
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;     /* Center vertically */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bottom-div">right sidebar</div>
+
+    <div class="overlay">
+        <div class="second-con">
+            <div class="first-hed">Modal Title</div>
+            <div class="sec-hed">This is a modal</div>
+            <button>Close</button>
+        </div>
+    </div>
+</body>
+
+</html>
