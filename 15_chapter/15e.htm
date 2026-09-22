@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    height: 3000px;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    width: 300px;
+    display: block; /* Gap remove karne ke liye */
+}
+
+.discount-div {
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 5px;
+    right: 0px;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+/* Is class ko poora change kar lijiye */
+.btn-div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Pure image ki width cover karega */
+    box-sizing: border-box;
+    padding: 30px 0px; /* Upar niche halki space */
+    text-align: center; /* Button perfectly center ho jayega */
+    
+    /* 80% opacity wala white background jisse piche ki shirt halki si dikhegi */
+    background-color: rgba(255, 255, 255, 0.75); 
+}
+
+.btn-div button {
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+    </style>
+
+
+</head>
+<body>
+    <div class="img-container">
+        <img src="img_fold/image.png" alt="">
+        <div class="discount-div">20% OFF</div>
+        <div class="btn-div">
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
